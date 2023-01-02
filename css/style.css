@@ -41,34 +41,26 @@ body{
 	justify-content: space-around;
 	max-width: 1248px;
 }
-.primary-btn{
+.primary-btn, .secondary-btn{
 	width: 170px;
 	height: 40px;
 	font-size: 1em;
 	color: var(--white);
 	text-transform: capitalize;
-	background-color: var(--medium-blue);
 	margin: 10px;
 	cursor: pointer;
 	border: none;
 	border-radius: 999px;
 	transition: all 0.5s ease;
+}
+.primary-btn{
+	background-color: var(--medium-blue);
 }
 .primary-btn:hover{
 	background-color: var(--royal-blue);
 }
 .secondary-btn{
-	width: 170px;
-	height: 40px;
-	font-size: 1em;
-	color: var(--white);
-	text-transform: capitalize;
 	background-color: var(--lime-green);
-	margin: 10px;
-	cursor: pointer;
-	border: none;
-	border-radius: 999px;
-	transition: all 0.5s ease;
 }
 .secondary-btn:hover{
 	background-color: var(--lime);
